@@ -10,11 +10,11 @@ class Detail extends Component {
                 <Text style={styles.title}>Detail Screen</Text>
                 <Button
                     title="View Bottom Tabs"
-                    onPress={() => { }}
+                    onPress={() => this.props.navigation.navigate('Bottom Tabs')}
                 />
                 <Button
                     title="View Top Tabs"
-                    onPress={() => { }}
+                    onPress={() => this.props.navigation.navigate('Top Tabs')}
                 />
             </View>
         )
